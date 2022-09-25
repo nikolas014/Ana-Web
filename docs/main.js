@@ -73,25 +73,25 @@ btn1.addEventListener("click", () => {
 })
 btn2.addEventListener("click", () => {
     removerBordes()
-    btn2.classList.add("border");
-    btn2.classList.add("trasnlate");
-    contenido.classList.add("allradius");
+    btn2.classList.add("border !important");
+    btn2.classList.add("trasnlate !important");
+    contenido.classList.add("allradius !important");
     contenido.innerHTML = texto2;
 })
 btn3.addEventListener("click", () => {
     removerBordes()
-    btn3.classList.add("border");
-    btn3.classList.add("trasnlate");
-    contenido.classList.add("allradius");
+    btn3.classList.add("border !important");
+    btn3.classList.add("trasnlate !important");
+    contenido.classList.add("allradius !important");
     contenido.innerHTML = texto3;
 })
 
 let removerBordes = () =>{
-    btn1.classList.remove("border");
-    btn2.classList.remove("border");
-    btn3.classList.remove("border");
-    btn1.classList.remove("trasnlate");
-    btn2.classList.remove("trasnlate");
-    btn3.classList.remove("trasnlate");
+    btn1.classList.remove("border !important");
+    btn2.classList.remove("border !important");
+    btn3.classList.remove("border !important");
+    btn1.classList.remove("trasnlate !important");
+    btn2.classList.remove("trasnlate !important");
+    btn3.classList.remove("trasnlate !important");
 }
 
