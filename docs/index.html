@@ -33,6 +33,7 @@
         --openSans: 'Open Sans', sans-serif;
         --letrasRusticas: 'Abril Fatface', cursive;
         --roboto: 'Roboto', sans-serif;
+        --azulfooter: #123357;
         --bluefooter: #005e90;
         --blue: #007bff;
         --indigo: #6610f2;
@@ -113,10 +114,10 @@
         font-size: 14px;
     }
     /* Cards */
-    .card-1{
+    /* .card-1{
         background-image: 
         linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 80%),
-        url("./img/pruebas.png");
+        url("./img/imagen_1.jpg");
     }
     .card-2{
         background-image: 
@@ -137,12 +138,7 @@
         background-image: 
         linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 80%),
         url("./img/M6.E5.GIF_anA_PErez.gif");
-    }
-    .card-6{
-        background-image: 
-        linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 80%),
-        url("./img/E4A.jpg");
-    }
+    } */
     .borde{
         border-radius: 10px;
         box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, .1  )
@@ -154,7 +150,7 @@
     }
     .footer{
         height: 100px;
-        background-color: var(--bluefooter);
+        background-color: var(--azulfooter);
     }
     h6{
         font-family: var(--roboto);
@@ -226,79 +222,75 @@
             </div>
             <!-- Galeria de fotos -->
             <!-- card-1 -->
-            <div class="padding col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-end size">
-                <div class="card-size card-1 w-100 d-flex align-items-end borde">
-                    <a href="#">
+            <div class="padding col-12 col-md-6 col-lg-4 d-flex align-items-end size">
+                <div class="card-size card-1 w-100 d-flex align-items-end borde" style="background-image: 
+                linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 80%),
+                url('./img/imagen_1.jpg');">
+                    <a href="./singleView.html">
                         <div class="contenido">
-                            <h3>1° Semestre</h3>
-                            <p class="p1" class="p1">semestre, 2020</p>
-                            <p class="p2" class="p2">Principiante</p> 
+                            <h3 class="mb-3">Introducción a la Arquitectura</h3>
+                            <p class="p1">S1 2020</p>
+                            <p class="p2">Formativo</p> 
                         </div>  
                     </a>                 
                 </div>
             </div>
             <!-- card-2 -->
-            <div class="padding col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-end size">
-                <div class="card-size card-2 p-3 w-100 d-flex align-items-end borde">
+            <div class="padding col-12 col-md-6 col-lg-4 d-flex align-items-end size">
+                <div class="card-size card-2 p-3 w-100 d-flex align-items-end borde" style="background-image: 
+                linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 80%),
+                url('./img/M6.E5.GIF_anA_PErez.gif');">
                     <a href="#">
                         <div class="contenido">
-                            <h3>2° Semestre</h3>
-                            <p class="p1">Segundo semestre, 2020</p>
-                            <p class="p2">Amateur</p> 
+                            <h3>Espacio Urbano</h3>
+                            <p class="p1">S3 2020</p>
+                            <p class="p2">Formativo</p>
                         </div>  
                     </a>                 
                 </div>
             </div>
             <!-- card-3 -->
-            <div class="padding col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-end size">
-                <div class="card-size card-3 p-3 w-100 d-flex align-items-end borde">
+            <div class="padding col-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-end size">
+                <div class="card-size card-3 p-3 w-100 d-flex align-items-end borde" style="background-image: 
+                linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 80%),
+                url('./img/fotomontaje1.jpg');">
                     <a href="#">
                         <div class="contenido">
-                            <h3>3° Semestre</h3>
-                            <p class="p1">Tercer semestre, 2021</p>
-                            <p class="p2">Avanzado</p> 
+                            <h3>Espacio Intermedio y Clima</h3>
+                            <p class="p1">S4 2021</p>
+                            <p class="p2">Formativo</p> 
                         </div>  
                     </a>                 
                 </div>
             </div>
             <!-- card-4 -->
-            <div class="padding col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-end size">
-                <div class="card-size card-4 p-3 w-100 d-flex align-items-end borde">
+            <div class="padding col-12 col-md-12 col-lg-8 d-flex align-items-end size order-1 order-md-2 order-lg-1">
+                <div class="card-size card-4 p-3 w-100 d-flex align-items-end borde" style="background-image: 
+                linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 80%),
+                url('./img/img001.1.jpg');">
                     <a href="#">
                         <div class="contenido">
-                            <h3>4° Semestre</h3>
-                            <p class="p1">Cuarto semestre, 2021</p>
-                            <p class="p2">Avanzado</p> 
+                            <h3>Modelación del Espacio</h3>
+                            <p class="p1">S5 2021</p>
+                            <p class="p2">Formativo</p> 
                         </div>  
                     </a>                 
                 </div>
             </div>
             <!-- card-5 -->
-            <div class="padding col-12 col-md-6 col-lg-4 col-xl-6  d-flex align-items-end size">
-                <div class="card-size card-5 p-3 w-100 d-flex align-items-end borde">
+            <div class="padding col-12 col-md-6 col-lg-4 col-xl-4  d-flex align-items-end size order-2 order-md-1 order-lg-2">
+                <div class="card-size card-5 p-3 w-100 d-flex align-items-end borde" style="background-image: 
+                linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 80%),
+                url('./img/M6.E5.GIF_anA_PErez.gif');">
                     <a href="#">
                         <div class="contenido">
-                            <h3>5° Semestre</h3>
-                            <p class="p1">Quinto semestre, 2022</p>
-                            <p class="p2">Avanzado</p> 
+                            <h3>Espacio y Tectónica</h3>
+                            <p class="p1">S6 2022</p>
+                            <p class="p2">Formativo</p> 
                         </div>  
                     </a>                 
                 </div>
             </div>
-            <!-- card-6 -->
-            <div class="padding col-12 col-md-6 col-lg-4 col-xl-6 mb-5 d-flex align-items-end size">
-                <div class="card-size card-6 p-3 w-100 d-flex align-items-end borde">
-                    <a href="#">
-                        <div class="contenido">
-                            <h3>6° Semestre</h3>
-                            <p class="p1">Sexto semestre, 2022</p>
-                            <p class="p2">Avanzado</p> 
-                        </div>  
-                    </a>                 
-                </div>
-            </div>
-        </div>
-        
     </main>
     <footer class="container-fluid mt-5">
         <div class="row">
